@@ -21,6 +21,18 @@ h1{
     vertical-align: middle;
 }
 
+h2{
+    font-size: 135%;
+    padding-bottom: 3%;
+}
+
+ul{
+    list-style-type: none;
+}
+
+li{
+    margin-left: 6px;
+}
 
 
 
@@ -30,7 +42,7 @@ h1{
     height: 91px;
     background-color: white;
     border-top: 5px solid black;
-    margin-bottom: 2%;
+    margin-bottom: 27px;
 }
 
 
@@ -41,10 +53,12 @@ h1{
 }
 
 
+
+
 /* Add form button  */
 
 #form-add-button{
-    width: 950px;
+    width: 750px;
     margin: auto;
     line-height: 60px;
     height: 60px;
@@ -63,12 +77,23 @@ h1{
 }
 
 
+
+
+/* To do list */
+
+.to-do-list{
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
 /* Utilities */
 
 .container{
-    width: 950px;
+    width: 750px;
+    height: 900px;
     margin: 0 auto;
     background: white;
+    margin-top: 2px;
 }
 
 .selected-button{
@@ -77,3 +102,33 @@ h1{
     color: white;
 }
     
+
+.special-character{
+    font-size: 50%;
+    padding: 5px;
+    vertical-align: middle;
+}
+
+
+.check-character{
+    display: inline-block;
+    color: green;
+    border: 1px solid green;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    line-height: 15.4px;
+    padding: 0px 3px;
+    font-size: 70%;
+    margin-right: 6px;
+}
+
+
+.label{
+   background-color: rgb(69, 171, 234);
+   border-radius: 10px;
+   color: white;
+   font-size: 65%;
+   padding: 5px;
+}  
+
