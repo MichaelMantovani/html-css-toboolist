@@ -32,6 +32,7 @@ ul{
 
 li{
     margin-left: 6px;
+    margin-bottom: 25px;
 }
 
 
@@ -118,17 +119,52 @@ li{
     height: 15px;
     border-radius: 50%;
     line-height: 15.4px;
-    padding: 0px 3px;
+    padding: 0px 2px;
     font-size: 70%;
     margin-right: 6px;
 }
 
+.cross-character{
+    display: inline-block;
+    color: red;
+    border: 1px solid red;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    line-height: 13.4px;
+    padding: 0px 2px;
+    font-size: 70%;
+    margin-right: 6px;
+}
 
 .label{
-   background-color: rgb(69, 171, 234);
    border-radius: 10px;
    color: white;
    font-size: 65%;
    padding: 5px;
+   margin-left: 5px; 
 }  
 
+.editorial{
+    background-color: rgb(69, 171, 234);
+}
+
+.q1-goals{
+    background-color: rgb(156, 114, 228);
+}
+
+.recruiting{
+    background-color: rgb(100, 192, 169);
+}
+
+.website{
+    background-color: rgb(216, 99, 161);
+}
+
+.mobile{
+    background-color: rgb(242, 158, 51);
+}
+
+.sales{
+   background-color: rgb(176, 201, 38); 
+}
