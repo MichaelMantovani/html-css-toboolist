@@ -16,13 +16,13 @@ body{
 
 h1{
     display: inline;
-    font-size: 300%;
+    font-size: 230%;
     font-weight: 800;
     vertical-align: middle;
 }
 
 h2{
-    font-size: 135%;
+    font-size: 120%;
     padding-bottom: 3%;
 }
 
@@ -37,70 +37,28 @@ li{
 
 
 
-/* Header */
-
-#title{
-    height: 91px;
-    background-color: white;
-    border-top: 5px solid black;
-    margin-bottom: 27px;
-}
-
-
-#logo{
-    height: 62px;
-    vertical-align: middle;
-    margin: 13px 0 13px 24px;
-}
-
-
-
-
-/* Add form button  */
-
-#form-add-button{
-    width: 750px;
-    margin: auto;
-    line-height: 60px;
-    height: 60px;
-    padding-left: 35px;
-    border-radius: 4px 4px 0px 0px;
-    background-color: white;  
-}
-
-.form-button{
-    border-radius: 9px;
-    padding: 8px 11px;
-    font-size: 107%;
-    border: 1px solid grey;
-    color: grey;
-    cursor: pointer;
-}
-
-
-
-
-/* To do list */
-
-.to-do-list{
-    padding-left: 3%;
-    padding-top: 3%;
-}
 
 /* Utilities */
 
 .container{
     width: 750px;
-    height: 900px;
+    height: 543px;
     margin: 0 auto;
     background: white;
     margin-top: 2px;
+    border-radius: 0 0 4px 4px;
 }
 
 .selected-button{
     background-color: rgb(30, 144, 255);
     border-style: none;
     color: white;
+}
+
+.unselected-button{
+    background-color: white;
+    color: grey;
+    border: 1px solid grey;
 }
     
 
@@ -168,3 +126,57 @@ li{
 .sales{
    background-color: rgb(176, 201, 38); 
 }
+
+
+
+
+
+
+/* Header */
+
+#title{
+    height: 76px;
+    background-color: white;
+    border-top: 5px solid black;
+    margin-bottom: 27px;
+}
+
+
+#logo{
+    height: 50px;
+    vertical-align: middle;
+    margin: 13px 0 13px 24px;
+}
+
+
+
+
+/* Add form button  */
+
+#form-add-button{
+    width: 750px;
+    margin: auto;
+    line-height: 60px;
+    height: 60px;
+    padding-left: 35px;
+    border-radius: 4px 4px 0px 0px;
+    background-color: white;  
+}
+
+.form-button{
+    border-radius: 6px;
+    padding: 6px 9px;
+    font-size: 85%;
+    cursor: pointer;
+}
+
+
+
+
+/* To do list */
+
+.to-do-list{
+    padding-left: 3%;
+    padding-top: 3%;
+}
+
